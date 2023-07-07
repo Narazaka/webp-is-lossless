@@ -15,3 +15,7 @@ test("lossy", () => {
   );
   assert(webpIsLossless(buf) === false);
 });
+test("notwebp", () => {
+  const buf = new Uint8Array(fs.readFileSync(__dirname + "/asset/notwebp.png"));
+  assert(webpIsLossless(buf) === undefined);
+});
