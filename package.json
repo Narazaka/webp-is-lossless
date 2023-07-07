@@ -1,6 +1,6 @@
 {
   "name": "webp-is-lossless",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "check WebP is lossless or not",
   "author": "narazaka",
   "license": "Zlib",
