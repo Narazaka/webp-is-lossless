@@ -7,6 +7,9 @@
   "main": "dist/webp-is-lossless.umd.js",
   "module": "dist/webp-is-lossless.mjs",
   "types": "dist/webp-is-lossless.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepare": "npm run build",
     "build": "vite build",
