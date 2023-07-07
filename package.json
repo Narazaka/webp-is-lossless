@@ -1,0 +1,25 @@
+{
+  "name": "webp-is-lossless",
+  "version": "1.0.0",
+  "author": "narazaka",
+  "license": "Zlib",
+  "type": "module",
+  "main": "dist/webp-is-lossless.umd.js",
+  "module": "dist/webp-is-lossless.mjs",
+  "types": "dist/webp-is-lossless.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "vite build",
+    "test": "vitest",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.2",
+    "vite-plugin-dts": "^3.1.1",
+    "vitest": "^0.33.0"
+  },
+  "keywords": []
+}
